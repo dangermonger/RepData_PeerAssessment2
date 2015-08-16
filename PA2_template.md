@@ -243,6 +243,10 @@ ggplot(data=injrem,
 
 ![](PA2_template_files/figure-html/unnamed-chunk-8-1.png) 
 
+Above we see the top five injury causing weather events in the United States.
+It can be seen that Tornados are by far the most dangerous weather event, 
+causing more injuries than the next four events combined.
+
 
 ```r
 ggplot(data=fatrem, 
@@ -253,6 +257,11 @@ ggplot(data=fatrem,
 ```
 
 ![](PA2_template_files/figure-html/unnamed-chunk-9-1.png) 
+
+We can see from the graph above that fatalities correlate quite closely with 
+injuries, however, we now see Lightning in the top five. This perhaps 
+illustrates the fact that lightning is more likely to cause death than simple 
+injury.
 
 ####2. Across the United States, which types of events have the greatest economic consequences?
 
@@ -267,3 +276,7 @@ ggplot(data=duprem,
 
 ![](PA2_template_files/figure-html/unnamed-chunk-10-1.png) 
 
+The most damaging events economically emphaise the difference between the 
+violence of the event and the extent of its reach. Flooding and hurricanes
+commonly cover vast areas while tornados, while devastating, are more likely to
+be localised.
